@@ -13,10 +13,24 @@ This is a full-stack To-Do application built using the MERN stack (MongoDB, Expr
 
 
 ### create '.env' file .inside file write below content
+```bash
+cd server-side
+
+```
+crate .env file then type 
+
 - PORT="enter port number like 3000"
 - DB_URL= "mongodb url "
 - DB_NAME="database name"
 
+
+## frontEnd Setup
+
+```bash
+cd client-side
+npm install
+npm run build
+```
 ## Backend Setup
 
 ```bash
